@@ -213,6 +213,10 @@
             color:#fafafa;
         }
 
+        .solution-title{
+            color: var(--secondary-blue);
+        }
+
 
         /* Home - business approach section */
         .business-approach-section{
