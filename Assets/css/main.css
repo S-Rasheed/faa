@@ -7,6 +7,7 @@
             --light-gray: #f5f5f5;
             --secondary-gray-color: #4D4B4B;
             --dark-navy: #2c3e50;
+            --orange-color: orange;
             --border-color: #4a6fa5;
         }
         
@@ -74,6 +75,10 @@
             padding: 100px 0;
             min-height: 700px;
             text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .text-orange{
+            color:orange;
         }
 
         /* Home about section */
@@ -880,11 +885,34 @@
             background-color: #1a1a1a;
             color: white;
         }
+
+        .text-justify {
+            text-align: justify;
+        }
+        
+        
+        .list-roman {
+            list-style-type: upper-roman;
+        }
+
+        .list-roman li{ 
+            font-weight: bold;
+        }
+
+        .list-roman > li {
+            font-weight: bold;
+        }
+
+        .list-circle li{
+            list-style-type: disc;
+            font-weight: normal;
+            margin:10px 0;
+        }
         
         /* Bottom Section */
         .bottom-section {
             background-color: white;
-            padding: 60px 0;
+            padding: 1vh 0;
         }
         
         .bottom-section p {
